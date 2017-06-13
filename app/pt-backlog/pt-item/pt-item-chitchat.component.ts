@@ -4,9 +4,9 @@ import { Router, ActivatedRoute, Params, UrlSegment } from '@angular/router';
 
 //nativescript imports
 import { RouterExtensions } from 'nativescript-angular/router';
-import { TextView } from 'ui/text-view';
-import { ScrollView } from 'ui/scroll-view';
-import { isIOS, isAndroid } from 'platform';
+import { TextView } from 'tns-core-modules/ui/text-view';
+import { ScrollView } from 'tns-core-modules/ui/scroll-view';
+import { isIOS, isAndroid } from 'tns-core-modules/platform';
 
 //3rd party imports
 import 'rxjs/add/operator/switchMap';

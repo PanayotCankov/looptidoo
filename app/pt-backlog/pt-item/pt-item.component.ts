@@ -4,8 +4,8 @@ import { Router, ActivatedRoute, Params, UrlSegment } from '@angular/router';
 
 //nativescript imports
 import { RouterExtensions } from 'nativescript-angular/router';
-import { SegmentedBar, SegmentedBarItem } from 'ui/segmented-bar';
-import { confirm, action, ActionOptions, ConfirmOptions } from 'ui/dialogs';
+import { SegmentedBar, SegmentedBarItem } from 'tns-core-modules/ui/segmented-bar';
+import { confirm, action, ActionOptions, ConfirmOptions } from 'tns-core-modules/ui/dialogs';
 
 //3rd party imports
 import 'rxjs/add/operator/switchMap';

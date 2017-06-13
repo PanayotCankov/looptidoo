@@ -2,9 +2,9 @@
 import { Component, OnInit } from "@angular/core";
 
 //nativescript imports
-import { Page } from 'ui/page';
+import { Page } from 'tns-core-modules/ui/page';
 import { ModalDialogParams, ModalDialogOptions } from "nativescript-angular/directives/dialogs";
-import { ItemEventData, ListView } from 'ui/list-view';
+import { ItemEventData, ListView } from 'tns-core-modules/ui/list-view';
 
 //app imports
 import { UserService } from '../../services';

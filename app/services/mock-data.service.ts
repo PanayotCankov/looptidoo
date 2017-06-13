@@ -2,7 +2,7 @@
 import { Injectable } from '@angular/core';
 
 //nativescript imports
-import * as fileSystemModule from 'file-system';
+import * as fileSystemModule from 'tns-core-modules/file-system';
 
 //3rd party imports
 import * as faker from 'faker';

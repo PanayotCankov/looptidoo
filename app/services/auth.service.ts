@@ -2,7 +2,7 @@
 import { Injectable } from '@angular/core';
 
 //nativescript imports
-import * as appSettingsModule from "application-settings";
+import * as appSettingsModule from "tns-core-modules/application-settings";
 
 //3rd party imports
 import { Observable, Observer } from 'rxjs/Rx';

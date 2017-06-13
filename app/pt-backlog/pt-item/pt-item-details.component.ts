@@ -4,10 +4,10 @@ import { Router, ActivatedRoute, Params, UrlSegment } from '@angular/router';
 
 //nativescript imports
 import { RouterExtensions } from 'nativescript-angular/router';
-import { SegmentedBar } from 'ui/segmented-bar';
-import { View } from 'ui/core/view';
-import { Color } from 'color';
-import { confirm, action, ActionOptions, ConfirmOptions } from 'ui/dialogs';
+import { SegmentedBar } from 'tns-core-modules/ui/segmented-bar';
+import { View } from 'tns-core-modules/ui/core/view';
+import { Color } from 'tns-core-modules/color';
+import { confirm, action, ActionOptions, ConfirmOptions } from 'tns-core-modules/ui/dialogs';
 import { ModalDialogService, ModalDialogOptions } from 'nativescript-angular/modal-dialog';
 
 //3rd party imports

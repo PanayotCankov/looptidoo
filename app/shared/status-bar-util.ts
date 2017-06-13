@@ -1,6 +1,6 @@
-import * as application from "application";
-import * as platform from "platform";
-import * as utils from "utils/utils";
+import * as application from "tns-core-modules/application";
+import * as platform from "tns-core-modules/platform";
+import * as utils from "tns-core-modules/utils/utils";
 
 declare var android: any;
 declare var UIStatusBarStyle: any;
@@ -18,7 +18,7 @@ export function setStatusBarColors() {
     // See http://bradmartin.net/2016/03/10/fullscreen-and-navigation-bar-color-in-a-nativescript-android-app/
     // for details on the technique used.
     if (platform.isAndroid) {
-        application.android.onActivityStarted = function () {
+        application.android.on("activityStarted", function () {
             if (application.android && platform.device.sdkVersion >= "21") {
                 const View = android.view.View;
                 const window = application.android.startActivity.getWindow();
@@ -31,6 +31,6 @@ export function setStatusBarColors() {
                     | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                     | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
             }
-        };
+        });
     }
 }

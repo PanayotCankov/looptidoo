@@ -3,11 +3,11 @@ import { Component, ViewChild, ElementRef, OnInit } from "@angular/core";
 
 //nativescript imports
 import { RouterExtensions } from 'nativescript-angular/router';
-import { Page } from 'ui/page';
-import { View } from "ui/core/view";
-import { Animation } from "ui/animation";
-import { Color } from "color";
-import * as enums from 'ui/enums';
+import { Page } from 'tns-core-modules/ui/page';
+import { View } from "tns-core-modules/ui/core/view";
+import { Animation } from "tns-core-modules/ui/animation";
+import { Color } from "tns-core-modules/color";
+import * as enums from 'tns-core-modules/ui/enums';
 
 //app imports
 import { AuthenticationService, UserService } from '../services';

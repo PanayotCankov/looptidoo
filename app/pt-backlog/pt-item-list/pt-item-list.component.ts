@@ -3,8 +3,8 @@ import { Component, OnInit, Input } from "@angular/core";
 
 //nativescript imports
 import { RouterExtensions } from 'nativescript-angular/router';
-import { ItemEventData, ListView } from 'ui/list-view';
-import { Page } from 'ui/page';
+import { ItemEventData, ListView } from 'tns-core-modules/ui/list-view';
+import { Page } from 'tns-core-modules/ui/page';
 
 //3rd party imports
 import * as _ from 'lodash';

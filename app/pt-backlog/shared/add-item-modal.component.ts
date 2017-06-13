@@ -2,9 +2,9 @@
 import { Component, OnInit, ViewContainerRef } from "@angular/core";
 
 //nativescript imports
-import { Page } from 'ui/page';
+import { Page } from 'tns-core-modules/ui/page';
 import { ModalDialogService, ModalDialogParams, ModalDialogOptions } from "nativescript-angular/directives/dialogs";
-import { ItemEventData, ListView } from 'ui/list-view';
+import { ItemEventData, ListView } from 'tns-core-modules/ui/list-view';
 import { ItemTypePickerModalComponent } from "../shared/item-type-picker-modal.component";
 
 //app imports

@@ -1,5 +1,5 @@
 //angular imports
-import { NgModule, NgModuleFactoryLoader } from "@angular/core";
+import { NgModule, NgModuleFactoryLoader, NO_ERRORS_SCHEMA } from "@angular/core";
 
 //nativescript imports
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
@@ -42,7 +42,9 @@ import { PipesModule } from '../pipes/pipes.module';
         BacklogService,
         ModalDialogService,
         { provide: NgModuleFactoryLoader, useClass: NSModuleFactoryLoader }
-
+    ],
+    schemas: [
+        NO_ERRORS_SCHEMA
     ]
 })
 export class PTItemModule { }

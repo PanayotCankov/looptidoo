@@ -1,5 +1,5 @@
 //angular imports
-import { NgModule } from "@angular/core";
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 
 //nativescript imports
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
@@ -30,8 +30,8 @@ import { PipesModule } from './pipes/pipes.module';
         PTBacklogComponent,
         PTItemListComponent,
         PTItemComponent,
-        AddItemModalComponent,
-        SIDEDRAWER_DIRECTIVES
+        AddItemModalComponent
+        //, SIDEDRAWER_DIRECTIVES
     ],
     entryComponents: [
         AddItemModalComponent
@@ -39,6 +39,9 @@ import { PipesModule } from './pipes/pipes.module';
     providers: [
         BacklogService,
         MockDataService
+    ],
+    schemas: [
+        NO_ERRORS_SCHEMA
     ]
 })
 export class PTBacklogModule { }

@@ -1,4 +1,5 @@
 {
+    "profiling": "timeline",
     "private": false,
     "nativescript": {
         "id": "org.nativescript.helloworldng"

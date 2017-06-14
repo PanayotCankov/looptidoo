@@ -20,9 +20,9 @@ export class UserPickerModalComponent implements OnInit {
     public prompt: string;
     public itemTitle: string;
 
-    constructor(private params: ModalDialogParams, private userService: UserService) { }
+    constructor(private params: ModalDialogParams, public userService: UserService) { }
 
-    public close(res: string) {
+    public close(res?: string) {
         this.params.closeCallback(res);
     }
 
